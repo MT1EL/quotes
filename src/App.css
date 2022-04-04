@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,500&display=swap");
+body {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+  background-color: blue;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0 0 0 0;
+  transition: 2s;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  font-size: 2em;
+  max-width: 80%;
+  width: 40%;
+  font-family: "Raleway", sans-serif;
+}
+.quoteDiv {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  text-align: center;
+}
+.author {
+  font-size: 0.5em;
+  align-self: flex-end;
+}
+.footer {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 1em 1em 2em 1em;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ICON {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5em;
+  color: white;
+  border-radius: 5px;
+  transition: 2s;
+}
+.quoteButton {
+  border: none;
+  color: white;
+  padding: 0em 2em 0em 2em;
+  border-radius: 10px;
+  transition: 1s;
+}
+.quoteButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
