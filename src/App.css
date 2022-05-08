@@ -19,7 +19,8 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  font-size: 2em;
+/*   font-size: 2em; */
+  font-size: min(2em, 5vw)
   max-width: 80%;
   width: 40%;
   font-family: "Raleway", sans-serif;
